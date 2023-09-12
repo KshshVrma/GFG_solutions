@@ -1,4 +1,4 @@
-<h2><a href="https://practice.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s4231/1?page=1&company[]=Amazon&sortBy=submissions">Sort an array of 0s, 1s and 2s</a></h2><h3>Difficulty Level : Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given an array of size<strong> N</strong> containing only 0s, 1s, and 2s; sort the array in ascending order.</span></p>
+<h2><a href="https://practice.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s4231/1?page=1&sprint=94ade6723438d94ecf0c00c3937dad55&sortBy=submissions">Sort an array of 0s, 1s and 2s</a></h2><h3>Difficulty Level : Easy</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given an array of size<strong> N</strong> containing only 0s, 1s, and 2s; sort the array in ascending order.</span></p>
 
 <p><br>
 <span style="font-size:18px"><strong>Example 1:</strong></span></p>
