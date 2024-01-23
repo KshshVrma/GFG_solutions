@@ -29,17 +29,16 @@ import java.util.Scanner;
 
 class GFG {
     String longest(String names[], int n) {
-        String ans="";
+        String temp="";
         int maxi=-1;
-        for(int i=0;i<names.length;i++){
-            String s=names[i];
-            int k=s.length();
-            if(k>maxi){
-                maxi=k;
-                ans=names[i];
+        for(int i=0;i<n;i++){
+            // String temp="";
+            if(names[i].length()>maxi){
+                maxi=names[i].length();
+                temp=names[i];
             }
+            
         }
-        return ans;
-        
+        return temp;
     }
 }
