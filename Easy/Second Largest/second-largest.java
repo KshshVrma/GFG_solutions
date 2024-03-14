@@ -1,8 +1,5 @@
 //{ Driver Code Starts
 //Initial Template for Java
-
-
-
 import java.util.stream.Collectors; 
 import java.util.*;
 import java.io.*;
@@ -35,18 +32,21 @@ public class Main {
 class Solution {
     int print2largest(int arr[], int n) {
         // code here
-        // PriorityQueue<Integer> pq=new PriorityQueue<Integer>(Collections.reverseOrder());
+        // Queue<Integer>q=new PriorityQueue<>();
         // for(int i=0;i<n;i++){
-        //     pq.add(arr[i]);
+        //     q.add(arr[i]);
         // }
-        // pq.poll();
-        // return pq.poll();
-        TreeSet<Integer>st=new TreeSet<Integer>(Collections.reverseOrder());
-        for(int i=0;i<n;i++){
-            st.add(arr[i]);
+        Arrays.sort(arr);
+        int k=n-1;
+        int wow=arr[k];
+        while(k>=0){
+            if(arr[k]!=wow){
+                return arr[k];
+            }
+            k--;
         }
-        if(st.size()<2)return -1;
-        ArrayList<Integer>vec=new ArrayList<Integer>(st);
-        return vec.get(1);
+        return -1;
+        
+        
     }
 }
