@@ -43,20 +43,19 @@ class Main {
 class Solution
 {
     
-
   public void printNos(int N)
     {
         //Your code here
-        if(N==1){
-            System.out.print(1);
-            System.out.print(' ');
+        fun(N);
+    }
+    private void fun(int N){
+        
+        if(N<=0){
             return ;
         }
-        printNos(N-1);
-        
-            System.out.print(N);
-            System.out.print(' ');
-        
+        fun(N-1);
+        System.out.print(N);
+        System.out.print(' ');
     }
 }
 
