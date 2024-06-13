@@ -32,7 +32,10 @@ class Reverse
     public static String reverseWord(String str)
     {
         // Reverse the string str
-        return new StringBuilder(str).reverse().toString();
-        char[] c=str.
+        String temp="";
+        for(int i=str.length()-1;i>=0;i--){
+            temp+=str.charAt(i);
+        }
+        return temp;
     }
 }
